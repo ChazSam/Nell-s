@@ -1,0 +1,18 @@
+.nells-logo{
+    display: block;
+    margin: 20px auto 0 ;
+    width: 200px;
+}
+
+.navbar {
+    display: flex;
+    background-color: aliceblue;
+    border: 3px #563939 solid;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    color: #563939;
+    font-size: 32px;
+    padding: .5rem 1rem;
+    width: 95%;
+}

@@ -1,4 +1,4 @@
-:root {
+ :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -13,11 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 header {
-  text-align: center;
-  margin: auto;
-  color: #563939;
-  font-size: 48px;
-}
+
+  }
+  /*
 
 a {
   font-weight: 500;
@@ -34,8 +32,8 @@ a:hover {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-} */
-
+} 
+ 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -71,4 +69,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */ 

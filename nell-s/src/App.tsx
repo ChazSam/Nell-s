@@ -7,10 +7,11 @@ function App() {
   return (
     <>
       <header>
-    <img src={NellsLogo} alt="Nell's Logo"></img>
+    <img src={NellsLogo} alt="Nell's Logo" className="nells-logo"></img>
         <div>
           <Navbar />
           <div>
+            <img></img>
             <Outlet/>
           </div>
         </div>
