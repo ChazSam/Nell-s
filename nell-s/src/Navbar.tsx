@@ -10,7 +10,7 @@ function Navbar() {
         }
         end
       >
-        Home_
+        Home
       </NavLink>
 
       <NavLink
@@ -20,7 +20,7 @@ function Navbar() {
         }
         end
       >
-        About_
+        About
       </NavLink>
 
       <NavLink
@@ -30,7 +30,7 @@ function Navbar() {
         }
         end
       >
-        Menu_
+        Menu
       </NavLink>
 
       <NavLink
@@ -40,7 +40,7 @@ function Navbar() {
         }
         end
       >
-        Reviews_
+        Reviews
       </NavLink>
     </nav>
   );
