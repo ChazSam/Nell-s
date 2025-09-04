@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./Navbar.tsx";
 import { Outlet } from "react-router-dom";
 import NellsLogo from "./assets/Nells.svg";
-import blurredbackground from "./assets/blurredbackground.jpg";
+
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
           <Navbar />
           <div className="page-content">
             <Outlet />
-            {/* <img src={blurredbackground}></img> */}
+    
           </div>
         </div>
       </header>
