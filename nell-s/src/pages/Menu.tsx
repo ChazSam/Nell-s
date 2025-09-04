@@ -194,6 +194,103 @@ Blackened chicken, avocado, grilled broccoli, red cabbage over greens w/ quinoa 
           <h4>$16.95</h4>
         </div>
       </div>
+
+      <div>
+        <h2>Entrees</h2>
+                                
+        <div>
+          <h3>Chicken Pot Pie</h3>
+          <p>
+White meat chicken, carrots, peas, onions, and celery with creamy sauce topped with flaky puff pastry        </p>
+          <h4>$19.95</h4>
+        </div>
+                                
+        <div>
+          <h3>Artichoke Chicken & Quinoa (gluten-free)</h3>
+          <p>
+With artichoke, spinach, & mushrooms over roasted red peppers and herb sauce        </p>
+          <h4>$21.95 | Vegetarian $17.95 | W/Shrimp +$4.00</h4>
+        </div>                                
+        <div>
+          <h3>Chicken Parmigiana</h3>
+          <p>
+2 Boneless chicken breasts, lightly breaded and topped with our crushed tomato basil marinara on a bed of fettuccine        </p>
+          <h4>$19.95</h4>
+        </div>                                
+        <div>
+          <h3>Breaded Pork Tenderloin</h3>
+          <p>
+Lightly breaded and cooked to perfection. Perched on Joe’s mashed potatoes and homemade gravy        </p>
+          <h4>$17.95</h4>
+        </div>                                
+        <div>
+          <h3>Herb Roasted Duck</h3>
+          <p>
+Crispy-skinned herb-roasted duck is served with our famous dressing, homestyle gravy, and vegetables         </p>
+          <h4>$25.95 Plus Sauce +$2.00</h4>
+        </div>                                
+        <div>
+          <h3>Pasta Giambotta</h3>
+          <p>
+White meat chicken, Italian sausage, green peppers, onions, mushrooms, and red potatoes with rigatoni pasta tossed with a delicious garlic white wine sauce       </p>
+          <h4>$21.95</h4>
+        </div>                                
+        <div>
+          <h3>Great Kabob</h3>
+          <p>
+Marinated tenderloin with tomato, pepper, mushroom, onions, & bourbon sauce served with rice        </p>
+          <h4>$22.95 | Chicken $18.95 | Vegetarian w/ Quinoa $15.95</h4>
+        </div>                                
+        <div>
+          <h3>Fried Shrimp Dinner</h3>
+          <p>
+Seven butterflied shrimp served with our tangy cocktail sauce and lemon wedge        </p>
+          <h4>$18.95</h4>
+        </div>                                
+        <div>
+          <h3>Rigatoni w/ Vodka Sauce or Pasta Primavera Alfredo</h3>
+          <p>
+Topped with shredded parmigiana        </p>
+          <h4>$18.95 | w/ grilled chicken +3.00 | w/ grilled shrimp +5.00 | Crushed Italian Sausage +$4.00</h4>
+        </div>                                
+        <div>
+          <h3>Baby Back Ribs</h3>
+          <p>
+Slow-cooked Grandpa’s way in our special marinade & broiled to perfection. Topped with Grandpa’s smokey sauce. Guaranteed to please! Honey BBQ available on request       </p>
+          <h4>Full Slab $25.95 | Half Slab $18.95</h4>
+        </div>                                
+        <div>
+          <h3>Crab Cake Dinner</h3>
+          <p>
+Three, pan-seared lump crab cakes with spring mix and a drizzle of Balsamic. Served with parmesan French fries       </p>
+          <h4>$22.95</h4>
+        </div>                                
+        <div>
+          <h3>Eggplant Casserole</h3>
+          <p>
+Sliced eggplant coated in Panko breadcrumbs topped with tomato basil marinara, provolone & mozzarella cheese & mushrooms & parmesan cheese with garlic bread        </p>
+          <h4>$19.95</h4>
+        </div>                                
+        <div>
+          <h3>Broasted Chicken Dinner</h3>
+          <p>
+4 pcs tender & juicy. Cooked in fresh oil under pressure. An all-time favorite!       </p>
+          <h4>$18.95 | BBQ Chicken $18.95 | Side of Mac & Cheese $5.95</h4>
+        </div>                                
+        <div>
+          <h3>Baby Back Ribs & Broasted Chicken</h3>
+          <p>
+1/2 slab ribs served with a roasted chicken breast and wing. The best of both worlds!        </p>
+          <h4>$23.95</h4>
+        </div>                                
+        <div>
+          <h3>Specials</h3>
+          <p>
+Friday Fish Fry & Saturday Prime Rib       </p>
+     
+        </div>
+
+      </div>
     </div>
   );
 }
