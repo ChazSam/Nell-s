@@ -197,7 +197,7 @@ Blackened chicken, avocado, grilled broccoli, red cabbage over greens w/ quinoa 
 
       <div>
         <h2>Entrees</h2>
-                                
+           <p>All entrees are served with soup or salad (Bleu Cheese +.75) potato or rice, bread and butter. Substitute Fresh Fruit, Sweet Potato Fries, or Onion Rings for $1.75. Potato loaded with bacon & cheese $2.25.  Substitute Cup of Chili or Lobster Bisque for $3.50 or Cup of Baked French Onion Soup for $1.95</p>                     
         <div>
           <h3>Chicken Pot Pie</h3>
           <p>
@@ -290,6 +290,54 @@ Friday Fish Fry & Saturday Prime Rib       </p>
      
         </div>
 
+      </div>
+
+      <div>
+        <h2>Great Steaks & Chops</h2>
+        <p>All entrees are served with soup or salad (Bleu Cheese +.75) potato or rice, bread and butter. Substitute Fresh Fruit, Sweet Potato Fries, or Onion Rings for 1.75. Potato loaded with bacon & cheese 2.25.  Substitute Cup of Chili or Lobster Bisque for $3.50, or Cup of Baked French Onion Soup $1.95</p>
+
+                <div>
+          <h3>New York Strip Steak</h3>
+          <p>
+A juicy 14oz strip steak with mushroom caps. For steak lovers!       </p>
+          <h4>$34.95</h4>
+        </div>
+                <div>
+          <h3>Filet & Grilled Shrimp</h3>
+          <p>
+Your filet is cooked to order, with 5 grilled shrimp served with harvest remoulade sauce and lemon wedge.        </p>
+          <h4>w/ 4oz Filet $23.95 | w/ twin 40z Filets $31.95</h4>
+        </div>
+                <div>
+          <h3>Center Cut Pork Chops</h3>
+          <p>
+Two tender and juicy chops (traditional or bbq) served with cinnamon apple sauce        </p>
+          <h4>$22.95</h4>
+        </div>
+                <div>
+          <h3>Ribs & Shimp Combo</h3>
+          <p>
+Fried shrimp butterflied with horseradish cocktail sauce with our tender 1/2 slab ribs, broiled to perfection with Grandpa’s smokey sauce        </p>
+          <h4>$24.95</h4>
+        </div>
+                <div>
+          <h3>Filet Mignon</h3>
+          <p>
+A 10oz cooked-to-order center-cut filet with bearnaise sauce and onion rings. Excellent!        </p>
+          <h4>$41.95 | twin 4oz $25.95</h4>
+        </div>
+                <div>
+          <h3>Twin or Triple Filet Medallion Combo</h3>
+          <p>
+Treat yourself to a combination of bleu cheese-crusted filet and a filet topped with horseradish cream or add a third with parmesan topping. Served with homestyle mashed potatoes        </p>
+          <h4>Two Filets $26.95 | Three Filets $31.95</h4>
+        </div>
+                <div>
+          <h3>Ribeye Steak</h3>
+          <p>
+A flavorful and juicy 22oz masterpiece!        </p>
+          <h4>$36.95</h4>
+        </div>
       </div>
     </div>
   );
