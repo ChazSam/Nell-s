@@ -120,6 +120,80 @@ Pork and vegetable dumplings steamed and seared, served with sweet chili glaze  
           <h4>$10.95</h4>
         </div>
       </div>
+
+      <div>
+        <h2>Soups, Salads, & Chili</h2>
+                <div>
+          <h3>
+Chef Joe’s Soup of the Day</h3>
+          <p>
+Made fresh every day      </p>
+          <h4>Cup $3.95 | Bowl $5.95</h4>
+        </div>
+                <div>
+          <h3>Chopped Salad</h3>
+          <p>
+Fresh greens chopped with bacon, bleu cheese, avocado, tomato, and balsamic vinaigrette. Fantastic!          </p>
+          <h4>$13.95</h4>
+          <h5>With Chicken +$3.00 |  With Filet +$7.00</h5>
+        </div>
+                <div>
+          <h3>Grecian Salad</h3>
+          <p>
+Greens, tomato, feta cheese, red onions & olives w/ fantastic Greek dressing          </p>
+          <h4>$13.95</h4>
+                    <h5>With Chicken +$3.00 |  With Filet +$7.00</h5>
+        </div>
+                <div>
+          <h3>Baked French Onion Soup</h3>
+          <p>
+A touch of sherry wine makes this soup special. Topped with croutons and mozzarella cheese          </p>
+          <h4>$6.95</h4>
+        </div>
+                <div>
+          <h3>Buffalo Chicken Salad</h3>
+          <p>
+Crispy chicken tenders dipped in Buffalo sauce over fresh greens with tomato, shredded cheddar, tortilla crisps, crumbled bleu cheese, and peppercorn ranch dressing          </p>
+          <h4>$15.95</h4>
+        </div>
+                <div>
+          <h3>Caesar Salad</h3>
+          <p>
+All you expect in a Caesar with our classic Dressing.           </p>
+          <h4>$12.95 | Organic Spinach Caesar $13.95</h4>
+          <h5>With Chicken +$3.00 | With Shrimp +$5.00 | With Filet +$7.00</h5>
+        </div>
+                <div>
+          <h3>Homemade Meaty Chili or Lobster Bisque</h3>
+
+          <h4>Cup $4.95 | Bowl $6.95</h4>
+        </div>
+                <div>
+          <h3>Dinner Salad</h3>
+          <p>
+Mixed greens, shredded carrots, red cabbage, grape tomato, and cucumber slice with your choice of dressing          </p>
+          <h4>$4.95</h4>
+        </div>
+                <div>
+          <h3>Organic Spinach & Cranberry Salad</h3>
+          <p>
+Leafy spinach with chopped bacon, walnuts, sundried cranberries, and crumbled bleu cheese with homemade balsamic          </p>
+          <h4>$13.95</h4>
+          <h5>Add Chicken +$3.00 | Add Filet +$7.00</h5>
+        </div>
+                <div>
+          <h3>Tangerine Chicken Salad</h3>
+          <p>
+Romaine, juicy tangerines, red grapes, walnuts, melon & provolone topped with our exclusive yogurt citrus          </p>
+          <h4>$16.95</h4>
+        </div>
+                        <div>
+          <h3>SuperFood Salad</h3>
+          <p>
+Blackened chicken, avocado, grilled broccoli, red cabbage over greens w/ quinoa         </p>
+          <h4>$16.95</h4>
+        </div>
+      </div>
     </div>
   );
 }
