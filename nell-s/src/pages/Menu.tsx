@@ -1,9 +1,9 @@
 function Menu() {
   return (
-    <div>
+    <div className="menu-page">
       <h1>Dine-In Menu</h1>
-      <div>
         <h2>Starters & Sharables</h2>
+      <div className="menu-items">
         <div>
           <h3>Grandpa's Baby Back Ribs</h3>
           <p>
@@ -147,12 +147,14 @@ function Menu() {
 
       <div>
         <h2>Soups, Salads, & Chili</h2>
-        <div>
+        <div className="menu-items">
+
+        <div >
           <h3>Chef Joe's Soup of the Day</h3>
           <p>Made fresh every day </p>
           <h4>Cup $3.95 | Bowl $5.95</h4>
         </div>
-        <div>
+        <div >
           <h3>Chopped Salad</h3>
           <p>
             Fresh greens chopped with bacon, bleu cheese, avocado, tomato, and
@@ -232,6 +234,7 @@ function Menu() {
           <h4>$16.95</h4>
         </div>
       </div>
+        </div>
 
       <div>
         <h2>Entrees</h2>
@@ -242,6 +245,8 @@ function Menu() {
           Substitute Cup of Chili or Lobster Bisque for $3.50 or Cup of Baked
           French Onion Soup for $1.95
         </p>
+        <div className="menu-items">
+
         <div>
           <h3>Chicken Pot Pie</h3>
           <p>
@@ -363,9 +368,10 @@ function Menu() {
           <p>Friday Fish Fry & Saturday Prime Rib </p>
         </div>
       </div>
-
+    </div>
       <div>
         <h2>Great Steaks & Chops</h2>
+
         <p>
           All entrees are served with soup or salad (Bleu Cheese +.75) potato or
           rice, bread and butter. Substitute Fresh Fruit, Sweet Potato Fries, or
@@ -373,6 +379,7 @@ function Menu() {
           Substitute Cup of Chili or Lobster Bisque for $3.50, or Cup of Baked
           French Onion Soup $1.95
         </p>
+        <div className="menu-items">
 
         <div>
           <h3>New York Strip Steak</h3>
@@ -427,6 +434,8 @@ function Menu() {
           <h4>$36.95</h4>
         </div>
       </div>
+        </div>
+       
       <div>
         <h2>Hand-Held Sandwiches & Wraps</h2>
         <p>
@@ -436,6 +445,7 @@ function Menu() {
           cup of Baked French Onion Soup for $1.95. Low Carbing? Say “skip the
           bread.”{" "}
         </p>
+        <div className="menu-items">
 
         <div>
           <h3>French Dip Sandwich</h3>
@@ -595,6 +605,7 @@ function Menu() {
           <h4>“Go Keto” … Just say NO BUN</h4>
         </div>
       </div>
+        </div>
     </div>
   );
 }

@@ -24,3 +24,17 @@
     background-repeat: no-repeat;
     min-height: calc(100vh - 80px);
 }
+
+.menu-items{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    align-items: start;
+    justify-content: space-between;
+    border: 2px dotted;
+    color:green;
+   
+}
+
+.menu-page h1, h2{
+text-align: center;
+}
