@@ -1,40 +1,51 @@
-.nells-logo{
-    display: block;
-    margin: 20px auto 0 ;
-    width: 200px;
+.nells-logo {
+  display: block;
+  margin: 20px auto 0;
+  width: 200px;
 }
 
 .navbar {
-    display: flex;
-    background-color: aliceblue;
-    border: 3px #563939 solid;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    color: #563939;
-    font-size: 32px;
-    padding: 0.5rem 1rem;
-    width: 95%;
+  display: flex;
+  background-color: aliceblue;
+  border: 3px #563939 solid;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  color: #563939;
+  font-size: 32px;
+  padding: 0.5rem 1rem;
+  width: 95%;
 }
 
 .page-content {
-    background-image: url("./assets/blurredbackground.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: calc(100vh - 80px);
+  background-image: url("./assets/blurredbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: calc(100vh - 80px);
 }
 
-.menu-items{
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    align-items: start;
-    justify-content: space-between;
-    border: 2px dotted;
-    color:green;
-   
+.menu-items {
+    margin: 20px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  align-items: start;
+  justify-content: space-between;
+  border: 2px dotted;
 }
 
-.menu-page h1, h2{
-text-align: center;
+.menu-page {
+    margin: 50px;
+    margin-top: 50px;
+    padding: 50px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-align: center;
 }
