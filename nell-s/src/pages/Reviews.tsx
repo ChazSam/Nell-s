@@ -1,6 +1,6 @@
 function Reviews(){
     return(
-        <div>
+        <div className="review-page">
             <h1>Customer Reviews</h1>
             <div>
                 <p>Dave G.</p>

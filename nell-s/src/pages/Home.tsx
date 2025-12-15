@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div>
+    <div className="home-page">
       <h1>Welcome To Nell's Bar And Grill</h1>
       <img src="/src/assets/friends2.jpg"></img>
       <h2>
