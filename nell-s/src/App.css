@@ -82,67 +82,85 @@ h2{
    font-family: "Young Serif", serif;
 }
 
-.gallery{
-  display: flex;
-    /* &::scroll-button(left) {
-    content: "⬅" / "Scroll Left";
-  }
-  
-  &::scroll-button(right) {
-    content: "⮕" / "Scroll Right";
-  }
 
-  &::scroll-button(*):focus-visible {
-    outline-offset: 5px;
-  } */
+
+
+.carousel {
+  width: 100%;
+  overflow-x: auto;
+  margin: 3em auto;
+  display: flex;
+  gap: 1em;
+  scroll-behavior: smooth;
+  anchor-name: --carousel;
+  scroll-snap-type: x mandatory;
+  scroll-marker-group: after;
 }
 
-.gallery div{
-  /* display: grid;
-  place-items: center;
+.card::scroll-marker{
+  content: "";
+  height: 1em;
+  width: 1em;
   background-color: aqua;
-  max-width: 600;
+  border-radius: 50%;
+}
+.card::scroll-marker:target-current{
+  background-color: violet;
+}
 
-  scroll-snap-align: start;
-  flex-shrink: 0;
-  width: 300px;
-  height: 300px;
-  margin-right: 50px;
-  border-radius: 10px;
-  background: #eee;
-  transform-origin: center center;
-  transform: scale(1);
-  transition: transform 0.5s;
-  position: relative;
-  
+.carousel::scroll-marker-group{
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: 100px; */
-}
-* {
-  box-sizing: border-box;
-}
-.gallery ul{
-  width: 100vw;
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
-    overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  gap: .5em;
 }
 
-.gallery li{
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.carousel::-webkit-scrollbar{
+  display: none;
+}
 
-    list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
+.carousel::scroll-button(right), .carousel::scroll-button(left){
+  content: "→";
+  border:none;
+  background-color: blue;
+  font-family: Consolas;
+  font-size: 3rem;
+  color: white;
 
-  flex: 0 0 100%;
-  scroll-snap-align: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding-bottom: .1em;
+  cursor: pointer;
+  position: fixed;
+
+  position-anchor: --carousel;
+  position-area: right center;
+  translate: -50%;
+  
+}
+
+.carousel::scroll-button(left){
+  content: "←";
+  position-area: left center;
+  translate: 50%;
+}
+
+.carousel.carousel::scroll-button(right):disabled, .carousel::scroll-button(left):disabled{
+  opacity: 0.5;
+  cursor: auto;
+}
+.card {
+  scroll-snap-align: start;
+  flex: 0 0 10em;
+  height: 50em;
+  background-color: var(--primary-color);
+  padding: 1em;
+  border-radius: .5em;
+  align-content: center;
+}
+
+@media(max-width: 500px){
+  .card{
+    flex: 0 0 100%;
+  }
 }

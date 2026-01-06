@@ -3,7 +3,7 @@ function Home() {
     <div className="home-page">
       <h1>Welcome To Nell's Bar And Grill</h1>
 
-      <div className="gallery">
+      {/* <div className="gallery">
       <ul>
         <li>
           <img src="/src/assets/friends1.jpg" alt="" />
@@ -16,8 +16,16 @@ function Home() {
         </li>
 
       </ul>
+      </div> */}
+
+
+      <div className="carousel">
+        <div className="card"><img src="/src/assets/friends1.jpg" alt="" /></div>
+        <div className="card"><img src="/src/assets/friends2.jpg" alt="" /></div>
+        <div className="card"><img src="/src/assets/friends3.jpg" alt="" /></div>
       </div>
-      <img src="/src/assets/friends2.jpg"></img>
+
+      {/* <img src="/src/assets/friends2.jpg"></img> */}
       <h3>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
         deserunt dolor alias quasi provident laborum et minima neque doloribus.
