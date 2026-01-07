@@ -3,8 +3,8 @@ function Menu() {
     <div className="menu-page">
       <h1>Dine-In Menu</h1>
         <h2>Starters & Sharables</h2>
-      <div className="menu-items">
-        <div>
+      <div className="menu-list">
+        <div className="menu-items">
           <h3>Grandpa's Baby Back Ribs</h3>
           <p>
             Slow-cooked in our special marinade and topped with Grandpa's smokey
@@ -12,7 +12,7 @@ function Menu() {
           </p>
           <h4>Half $12.95 | Full $21.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Fried Calamari</h3>
           <p>
             Marinated and lightly breaded and fried. Served with tangy cocktail
@@ -20,7 +20,7 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Stuffed Mushroom Caps</h3>
           <p>
             Mozzarella cheese, herbs, bread crumbs, and olive oil are tossed and
@@ -28,7 +28,7 @@ function Menu() {
           </p>
           <h4>$9.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Cheesy Potato Skins</h3>
           <p>
             Stuffed with bacon, cheddar, and mozzarella cheese with sour cream
@@ -36,23 +36,23 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Chicken Tenders</h3>
           <p>A classic snack with BBQ sauce for dipping. </p>
           <h4>$10.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Jumbo Shrimp Cocktail</h3>
           <p>A classic with lemon and cocktail sauce </p>
           <h4>$15.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Chicken Tenders</h3>
           <p>A classic snack with BBQ sauce for dipping. </p>
           <h4>$10.95</h4>
           <h5>Buffalo Style +$1.00 w/ peppercorn ranch</h5>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Grilled Shrimp Skewers</h3>
           <p>
             6 shrimp with a dash of our special spices, lightly grilled - served
@@ -60,35 +60,34 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Chilean Blue Mussels</h3>
           <p>Veggies & Breadstick in a wonderful wine broth </p>
           <h4>$16.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Sausage & Peppers</h3>
-
           <h4> $9.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Basket of Fries</h3>
           <h4>$6.25</h4>
         </div>{" "}
-        <div>
-          <h3>Burratta, Bruschetta & Olive Board</h3>
+<div className="menu-items">
+            <h3>Burratta, Bruschetta & Olive Board</h3>
           <p>With toasted garlic bread crisps </p>
           <h4>$13.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Lump Crab Cakes</h3>
           <p>Pan-seared and served with chipotle sauce and lemon </p>
           <h4>$15.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Basket of Sweeet Potato Fries</h3>
           <h4>$7.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Mozzarella Stix</h3>
           <p>
             Lightly coated in breadcrumbs served with crushed tomato basil
@@ -96,7 +95,7 @@ function Menu() {
           </p>
           <h4>$8.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Buffalo Hot Wings</h3>
           <p>
             Tossed in our buffalo sauce and served with celery sticks and bleu
@@ -104,7 +103,7 @@ function Menu() {
           </p>
           <h4>6pc $9.95 | 12pc $17.95 | 20pc $26.95</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Bruschetta</h3>
           <p>
             Mozzarella cheese, herbs, bread crumbs, and olive oil are tossed and
@@ -112,7 +111,7 @@ function Menu() {
           </p>
           <h4>$8.75</h4>
         </div>{" "}
-        <div>
+        <div className="menu-items">
           <h3>Cauliflower Buffalo Bites</h3>
           <p>
             Fresh cauliflower bites tossed. in a tangy buffalo sauce served with
@@ -121,7 +120,7 @@ function Menu() {
           </p>
           <h4>$8.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>The Greatest</h3>
           <p>
             The name says it all! An assortment of ribs, fried shrimp, stuffed
@@ -130,12 +129,12 @@ function Menu() {
           </p>
           <h4>$22.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Hot Giant Pretzel </h3>
           <p>Savory treat served with hot cheesy dipping sauce </p>
           <h4>$10.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Pot Stickers</h3>
           <p>
             Pork and vegetable dumplings steamed and seared, served with sweet
@@ -149,12 +148,12 @@ function Menu() {
         <h2>Soups, Salads, & Chili</h2>
         <div className="menu-items">
 
-        <div >
+        <div className="menu-items">
           <h3>Chef Joe's Soup of the Day</h3>
           <p>Made fresh every day </p>
           <h4>Cup $3.95 | Bowl $5.95</h4>
         </div>
-        <div >
+        <div className="menu-items">
           <h3>Chopped Salad</h3>
           <p>
             Fresh greens chopped with bacon, bleu cheese, avocado, tomato, and
@@ -163,7 +162,7 @@ function Menu() {
           <h4>$13.95</h4>
           <h5>With Chicken +$3.00 | With Filet +$7.00</h5>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Grecian Salad</h3>
           <p>
             Greens, tomato, feta cheese, red onions & olives w/ fantastic Greek
@@ -172,7 +171,7 @@ function Menu() {
           <h4>$13.95</h4>
           <h5>With Chicken +$3.00 | With Filet +$7.00</h5>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Baked French Onion Soup</h3>
           <p>
             A touch of sherry wine makes this soup special. Topped with croutons
@@ -180,7 +179,7 @@ function Menu() {
           </p>
           <h4>$6.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Buffalo Chicken Salad</h3>
           <p>
             Crispy chicken tenders dipped in Buffalo sauce over fresh greens
@@ -189,18 +188,18 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Caesar Salad</h3>
           <p>All you expect in a Caesar with our classic Dressing. </p>
           <h4>$12.95 | Organic Spinach Caesar $13.95</h4>
           <h5>With Chicken +$3.00 | With Shrimp +$5.00 | With Filet +$7.00</h5>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Homemade Meaty Chili or Lobster Bisque</h3>
 
           <h4>Cup $4.95 | Bowl $6.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Dinner Salad</h3>
           <p>
             Mixed greens, shredded carrots, red cabbage, grape tomato, and
@@ -208,7 +207,7 @@ function Menu() {
           </p>
           <h4>$4.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Organic Spinach & Cranberry Salad</h3>
           <p>
             Leafy spinach with chopped bacon, walnuts, sundried cranberries, and
@@ -217,7 +216,7 @@ function Menu() {
           <h4>$13.95</h4>
           <h5>Add Chicken +$3.00 | Add Filet +$7.00</h5>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Tangerine Chicken Salad</h3>
           <p>
             Romaine, juicy tangerines, red grapes, walnuts, melon & provolone
@@ -225,7 +224,7 @@ function Menu() {
           </p>
           <h4>$16.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>SuperFood Salad</h3>
           <p>
             Blackened chicken, avocado, grilled broccoli, red cabbage over
@@ -247,7 +246,7 @@ function Menu() {
         </p>
         <div className="menu-items">
 
-        <div>
+        <div className="menu-items">
           <h3>Chicken Pot Pie</h3>
           <p>
             White meat chicken, carrots, peas, onions, and celery with creamy
@@ -256,7 +255,7 @@ function Menu() {
           <h4>$19.95</h4>
         </div>
 
-        <div>
+        <div className="menu-items">
           <h3>Artichoke Chicken & Quinoa (gluten-free)</h3>
           <p>
             With artichoke, spinach, & mushrooms over roasted red peppers and
@@ -264,7 +263,7 @@ function Menu() {
           </p>
           <h4>$21.95 | Vegetarian $17.95 | W/Shrimp +$4.00</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Chicken Parmigiana</h3>
           <p>
             2 Boneless chicken breasts, lightly breaded and topped with our
@@ -280,7 +279,7 @@ function Menu() {
           </p>
           <h4>$17.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Herb Roasted Duck</h3>
           <p>
             Crispy-skinned herb-roasted duck is served with our famous dressing,
@@ -288,7 +287,7 @@ function Menu() {
           </p>
           <h4>$25.95 Plus Sauce +$2.00</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Pasta Giambotta</h3>
           <p>
             White meat chicken, Italian sausage, green peppers, onions,
@@ -297,7 +296,7 @@ function Menu() {
           </p>
           <h4>$21.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Great Kabob</h3>
           <p>
             Marinated tenderloin with tomato, pepper, mushroom, onions, &
@@ -305,7 +304,7 @@ function Menu() {
           </p>
           <h4>$22.95 | Chicken $18.95 | Vegetarian w/ Quinoa $15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Fried Shrimp Dinner</h3>
           <p>
             Seven butterflied shrimp served with our tangy cocktail sauce and
@@ -313,7 +312,7 @@ function Menu() {
           </p>
           <h4>$18.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Rigatoni w/ Vodka Sauce or Pasta Primavera Alfredo</h3>
           <p>Topped with shredded parmigiana </p>
           <h4>
@@ -321,7 +320,7 @@ function Menu() {
             Crushed Italian Sausage +$4.00
           </h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Baby Back Ribs</h3>
           <p>
             Slow-cooked Grandpa's way in our special marinade & broiled to
@@ -330,7 +329,7 @@ function Menu() {
           </p>
           <h4>Full Slab $25.95 | Half Slab $18.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Crab Cake Dinner</h3>
           <p>
             Three, pan-seared lump crab cakes with spring mix and a drizzle of
@@ -338,7 +337,7 @@ function Menu() {
           </p>
           <h4>$22.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Eggplant Casserole</h3>
           <p>
             Sliced eggplant coated in Panko breadcrumbs topped with tomato basil
@@ -347,7 +346,7 @@ function Menu() {
           </p>
           <h4>$19.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Broasted Chicken Dinner</h3>
           <p>
             4 pcs tender & juicy. Cooked in fresh oil under pressure. An
@@ -355,7 +354,7 @@ function Menu() {
           </p>
           <h4>$18.95 | BBQ Chicken $18.95 | Side of Mac & Cheese $5.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Baby Back Ribs & Broasted Chicken</h3>
           <p>
             1/2 slab ribs served with a roasted chicken breast and wing. The
@@ -381,12 +380,12 @@ function Menu() {
         </p>
         <div className="menu-items">
 
-        <div>
+        <div className="menu-items">
           <h3>New York Strip Steak</h3>
           <p>A juicy 14oz strip steak with mushroom caps. For steak lovers! </p>
           <h4>$34.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Filet & Grilled Shrimp</h3>
           <p>
             Your filet is cooked to order, with 5 grilled shrimp served with
@@ -394,7 +393,7 @@ function Menu() {
           </p>
           <h4>w/ 4oz Filet $23.95 | w/ twin 40z Filets $31.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Center Cut Pork Chops</h3>
           <p>
             Two tender and juicy chops (traditional or bbq) served with cinnamon
@@ -402,7 +401,7 @@ function Menu() {
           </p>
           <h4>$22.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Ribs & Shimp Combo</h3>
           <p>
             Fried shrimp butterflied with horseradish cocktail sauce with our
@@ -411,7 +410,7 @@ function Menu() {
           </p>
           <h4>$24.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Filet Mignon</h3>
           <p>
             A 10oz cooked-to-order center-cut filet with bearnaise sauce and
@@ -419,7 +418,7 @@ function Menu() {
           </p>
           <h4>$41.95 | twin 4oz $25.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Twin or Triple Filet Medallion Combo</h3>
           <p>
             Treat yourself to a combination of bleu cheese-crusted filet and a
@@ -428,7 +427,7 @@ function Menu() {
           </p>
           <h4>Two Filets $26.95 | Three Filets $31.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Ribeye Steak</h3>
           <p>A flavorful and juicy 22oz masterpiece! </p>
           <h4>$36.95</h4>
@@ -447,7 +446,7 @@ function Menu() {
         </p>
         <div className="menu-items">
 
-        <div>
+        <div className="menu-items">
           <h3>French Dip Sandwich</h3>
           <p>
             Thinly sliced roast beef with sauteed onions, peppers, and melted
@@ -455,7 +454,7 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Grilled Cheese & Avocado</h3>
           <p>
             American and provolone cheeses with roasted red pepper and avocado
@@ -463,7 +462,7 @@ function Menu() {
           </p>
           <h4>$13.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Turkey Wrap</h3>
           <p>
             Sliced turkey with bacon, lettuce, shredded cheese, avocado, and
@@ -471,11 +470,11 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Chicken French Dip Sandwich</h3>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>BLT Classic</h3>
           <p>
             The traditional double-decker, bacon, lettuce, and tomato with may
@@ -484,7 +483,7 @@ function Menu() {
           <h4>$15.95</h4>
           <h5>Add Turkey +1.50 | add cheese +.50</h5>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Grilled Chicken BLT Wrap</h3>
           <p>
             Sliced grilled chicken breast, bacon, lettuce, shredded cheese, and
@@ -492,7 +491,7 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Breast of Chicken Sandwich</h3>
           <p>
             Marinated chicken breast broiled and served on toasted roll with
@@ -500,7 +499,7 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>French Dip Sandwich</h3>
           <p>
             Thinly sliced roast beef with sauteed onions, peppers, and melted
@@ -508,16 +507,16 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Corned Beef Sandwich</h3>
           <p>Slow-cooked on a traditional rye bread </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Cajun Chicken Caesar Wrap</h3>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>The Great Burger w/ Cheese</h3>
           <p>
             10 oz. of beef served on a toasted roll with lettuce, tomato, red
@@ -525,7 +524,7 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>French Dip Sandwich</h3>
           <p>
             Thinly sliced roast beef with sauteed onions, peppers, and melted
@@ -533,14 +532,14 @@ function Menu() {
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Nashville Chicken Sandwich</h3>
           <p>
             Crispy spiced chicken breast with cajun mayo, lettuce, and pickle{" "}
           </p>
           <h4>$15.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Rueben Sandwich</h3>
           <p>
             Lean corned beef, swiss cheese, and sauerkraut on grilled rye bread
@@ -548,7 +547,7 @@ function Menu() {
           </p>
           <h4>$16.75</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Build Your Own Burger</h3>
           <p>
             A great burger with your choice of cheese and any two items:
@@ -557,7 +556,7 @@ function Menu() {
           </p>
           <h4>$16.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Turkey Sandwich</h3>
           <p>
             Sliced thin and stacked high on 7-grain toast with lettuce, tomato,
@@ -566,13 +565,13 @@ function Menu() {
           <h4>$14.95</h4>
           <h5>Add cheese +.50 | add avocado +1.00</h5>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Mac & Cheese</h3>
 
           <h4>$8.95</h4>
           <h5>w/ pulled pork +$4.00 | Buffalo Tenders +$4.00</h5>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Shrimp Po'Boy</h3>
           <p>
             Our special seasoned grilled shrimp with shredded lettuce, tomato,
@@ -580,17 +579,17 @@ function Menu() {
           </p>
           <h4>$16.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Filet Mignon Sliders</h3>
           <p>with horsey sauce and onion strings </p>
           <h4>(2) $14.95 | (3) $18.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Crab Cake Sliders</h3>
           <p>with remoulade sauce </p>
           <h4>$19.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Bison Burger</h3>
           <p>
             Locally raised. 91% lean, no hormones or antibiotics. All the
