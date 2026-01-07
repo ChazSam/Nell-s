@@ -73,7 +73,7 @@ function Menu() {
           <h3>Basket of Fries</h3>
           <h4>$6.25</h4>
         </div>{" "}
-<div className="menu-items">
+        <div className="menu-items">
             <h3>Burratta, Bruschetta & Olive Board</h3>
           <p>With toasted garlic bread crisps </p>
           <h4>$13.95</h4>
@@ -146,7 +146,7 @@ function Menu() {
 
       <div>
         <h2>Soups, Salads, & Chili</h2>
-        <div className="menu-items">
+        <div className="menu-list">
 
         <div className="menu-items">
           <h3>Chef Joe's Soup of the Day</h3>
@@ -244,7 +244,7 @@ function Menu() {
           Substitute Cup of Chili or Lobster Bisque for $3.50 or Cup of Baked
           French Onion Soup for $1.95
         </p>
-        <div className="menu-items">
+        <div className="menu-list">
 
         <div className="menu-items">
           <h3>Chicken Pot Pie</h3>
@@ -378,7 +378,7 @@ function Menu() {
           Substitute Cup of Chili or Lobster Bisque for $3.50, or Cup of Baked
           French Onion Soup $1.95
         </p>
-        <div className="menu-items">
+        <div className="menu-list">
 
         <div className="menu-items">
           <h3>New York Strip Steak</h3>
@@ -444,7 +444,7 @@ function Menu() {
           cup of Baked French Onion Soup for $1.95. Low Carbing? Say “skip the
           bread.”{" "}
         </p>
-        <div className="menu-items">
+        <div className="menu-list">
 
         <div className="menu-items">
           <h3>French Dip Sandwich</h3>

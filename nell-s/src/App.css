@@ -32,19 +32,19 @@
 
 .menu-list {
   margin: 20px;
-  display: grid;
+  display: flex;
   grid-template-columns: auto auto auto;
   align-items: start;
   justify-content: space-between;
   border: 2px dotted;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* width: 30em; */
+  
   
 }
 .menu-items{
-  /* width: 20em; */
+  width: 25em;
   gap: 10em;
   justify-content: space-evenly;
 }
@@ -192,9 +192,8 @@ img {
     scroll-snap-align: center;
   }
 
-  .menu-items{
-    flex-wrap: wrap;
-    display: flex;
+  .menu-list{
+
     width: 30em;
     
   }
