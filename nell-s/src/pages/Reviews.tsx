@@ -2,6 +2,8 @@ function Reviews(){
     return(
         <div className="review-page">
             <h1>Customer Reviews</h1>
+            <div className="review-list">
+
             <div className="review-items">
                 <h3>Dave G.</h3>
                 <p>⭐⭐⭐⭐⭐</p>
@@ -26,6 +28,7 @@ function Reviews(){
                 <h3>Charlie Z.</h3>
                 <p>⭐⭐⭐⭐ 1/2</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, natus architecto? Illo cupiditate atque dolor tempore? Commodi odio nostrum ea magnam quas veritatis, dolorem odit accusantium pariatur? Quod, corporis porro?</p>
+            </div>
             </div>
         </div>
     )
