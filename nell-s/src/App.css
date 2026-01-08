@@ -48,11 +48,18 @@
 
 .review-list {
   margin: 20px;
-  display: grid;
-  grid-template-columns: auto auto;
-  /* align-items: start; */
+  display: flex;
+  flex-wrap: wrap;
+
   justify-content: space-evenly;
   border: 2px dotted;
+  gap: 40px;
+}
+
+.review-items{
+  flex: 1 1 30em;
+  min-width: 0;
+
 }
 
 .menu-page,
@@ -195,7 +202,7 @@ img {
   .menu-list {
     width: 30em;
   }
-    .review-list {
+    /* .review-list {
     display: table-row;
-  }
+  } */
 }
