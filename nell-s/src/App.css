@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
 .nells-logo {
   display: block;
@@ -27,7 +26,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: calc(100vh - 80px);
-  
 }
 
 .menu-list {
@@ -40,10 +38,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
-  
 }
-.menu-items{
+.menu-items {
   width: 25em;
   gap: 10em;
   justify-content: space-evenly;
@@ -52,13 +48,16 @@
 .review-list {
   margin: 20px;
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
   align-items: start;
   justify-content: space-evenly;
   border: 2px dotted;
 }
 
-.menu-page, .review-page,.about-page, .home-page {
+.menu-page,
+.review-page,
+.about-page,
+.home-page {
   margin: 50px;
   margin-top: 50px;
   padding: 50px;
@@ -76,36 +75,33 @@ p {
   color: rgb(89, 21, 21);
 }
 
-
-h1{
-    font-size: 60px;
-    font-family: "Young Serif", serif;
-
+h1 {
+  font-size: 60px;
+  font-family: "Young Serif", serif;
 }
-h2{
-    font-size: 40px;
-    font-family: "Young Serif", serif;
-  }
-  
-  h3{
-   
-   font-family: "Young Serif", serif;
+h2 {
+  font-size: 40px;
+  font-family: "Young Serif", serif;
+}
+
+h3 {
+  font-family: "Young Serif", serif;
 }
 
 img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin:auto;
+  margin: auto;
 }
 
 .carousel {
   width: 100%;
-  overflow-x: auto;
-  margin: 3em auto;
-  display: flex;
-  background-color: grey;
   
+  overflow-x: auto;
+  margin: 2em auto;
+  display: flex;
+  /* background-color: grey; */
   padding-inline: 0;
   gap: 1em;
 
@@ -115,33 +111,35 @@ img {
   scroll-marker-group: after;
 
   padding-inline: calc(50% -5em);
+  
 }
 
-.card::scroll-marker{
+.card::scroll-marker {
   content: "";
   height: 1em;
   width: 1em;
-  background-color: aqua;
+  background-color: rgb(169, 147, 147);
   border-radius: 50%;
 }
-.card::scroll-marker:target-current{
-  background-color: violet;
+.card::scroll-marker:target-current {
+  background-color: rgb(89, 21, 21);
 }
 
-.carousel::scroll-marker-group{
+.carousel::scroll-marker-group {
   display: flex;
   justify-content: center;
-  gap: .5em;
+  gap: 0.5em;
 }
 
-.carousel::-webkit-scrollbar{
+.carousel::-webkit-scrollbar {
   display: none;
 }
 
-.carousel::scroll-button(right), .carousel::scroll-button(left){
+.carousel::scroll-button(right),
+.carousel::scroll-button(left) {
   content: "→";
-  border:none;
-  background-color: blue;
+  border: none;
+  background-color: rgb(89, 21, 21);
   font-family: Consolas;
   font-size: 3rem;
   color: white;
@@ -149,23 +147,24 @@ img {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  padding-bottom: .1em;
+  padding-bottom: 0.1em;
   cursor: pointer;
   position: fixed;
 
   position-anchor: --carousel;
   position-area: right center;
   translate: -50%;
-  
+ 
 }
 
-.carousel::scroll-button(left){
+.carousel::scroll-button(left) {
   content: "←";
   position-area: left center;
   translate: 50%;
 }
 
-.carousel.carousel::scroll-button(right):disabled, .carousel::scroll-button(left):disabled{
+.carousel.carousel::scroll-button(right):disabled,
+.carousel::scroll-button(left):disabled {
   opacity: 0.5;
   cursor: auto;
 }
@@ -176,25 +175,21 @@ img {
   height: 41em;
   background-color: var(--primary-color);
   padding: 1em;
-  border-radius: .5em;
+  border-radius: 0.5em;
   align-content: center;
   box-sizing: border-box;
 }
 
-
-
-@media(max-width: 500px){
-  .carousel{
+@media (max-width: 500px) {
+  .carousel {
     padding-inline: 0;
   }
-  .card{
+  .card {
     flex: 0 0 100%;
     scroll-snap-align: center;
   }
 
-  .menu-list{
-
+  .menu-list {
     width: 30em;
-    
   }
 }
