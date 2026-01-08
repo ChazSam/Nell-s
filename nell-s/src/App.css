@@ -29,7 +29,7 @@
 }
 
 .menu-list {
-  margin: 20px;
+  margin: 1em;
   display: flex;
   grid-template-columns: auto auto auto;
   align-items: start;
@@ -40,7 +40,8 @@
   align-items: center;
 }
 .menu-items {
-  width: 25em;
+  /* width: 20em; */
+  flex: 1 1 30em;
   gap: 10em;
   justify-content: space-evenly;
 }
@@ -94,6 +95,7 @@ img {
   height: auto;
   display: block;
   margin: auto;
+  gap: 3em;
 }
 
 .carousel {
