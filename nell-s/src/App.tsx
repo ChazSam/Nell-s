@@ -17,6 +17,9 @@ function App() {
           </div>
         </div>
       </header>
+      <footer>
+        <p>Author: Charles Sam</p>
+      </footer>
     </>
   );
 }
