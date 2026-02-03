@@ -190,7 +190,21 @@ img {
   box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 2700px) {
+  .navbar {
+  display:block;
+  background-color: rgb(126, 126, 126);
+  border: 3px #563939 solid;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  color: #ff0000;
+  font-size: 2em;
+  padding: 0.5rem 1rem;
+  width: 95%;
+}
+
+
   .carousel {
     padding-inline: 0;
   }
