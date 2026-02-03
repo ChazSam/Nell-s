@@ -2,10 +2,24 @@ import "./App.css";
 import Navbar from "./Navbar.tsx";
 import { Outlet } from "react-router-dom";
 import NellsLogo from "./assets/Nells.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+
+    const handleTabletChange = (e) => {
+      setIsOpen(e.matches);
+    };
+
+    handleTabletChange(mediaQuery);
+
+    mediaQuery.addEventListener("change", handleTabletChange);
+    return () => mediaQuery.removeEventListener("change", handleTabletChange);
+  }, []);
+
   return (
     <>
       <header>
@@ -16,11 +30,12 @@ function App() {
             <div className="burger"></div>
             <div className="burger"></div>
           </div>
-          
+
           {isOpen && <Navbar />}
-          <div className="page-content">
+
+          <main className="page-content">
             <Outlet />
-          </div>
+          </main>
         </div>
       </header>
       <footer>
