@@ -1,14 +1,23 @@
 import { NavLink } from "react-router-dom";
 
+
+
 function Navbar() {
+
+
+
   return (
+    <>
     <nav className="navbar">
+
+ 
+
       <NavLink
         to="/"
         className={({ isActive }: { isActive: boolean }) =>
           isActive ? "active-link" : ""
-        }
-        end
+      }
+      end
       >
         Home
       </NavLink>
@@ -17,8 +26,8 @@ function Navbar() {
         to="/about"
         className={({ isActive }: { isActive: boolean }) =>
           isActive ? "active-link" : ""
-        }
-        end
+      }
+      end
       >
         About
       </NavLink>
@@ -27,8 +36,8 @@ function Navbar() {
         to="/menu"
         className={({ isActive }: { isActive: boolean }) =>
           isActive ? "active-link" : ""
-        }
-        end
+      }
+      end
       >
         Menu
       </NavLink>
@@ -37,12 +46,13 @@ function Navbar() {
         to="/reviews"
         className={({ isActive }: { isActive: boolean }) =>
           isActive ? "active-link" : ""
-        }
-        end
+      }
+      end
       >
         Reviews
       </NavLink>
     </nav>
+    </>
   );
 }
 

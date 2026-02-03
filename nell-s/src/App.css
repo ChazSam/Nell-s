@@ -191,6 +191,26 @@ img {
 }
 
 @media (max-width: 2700px) {
+  .hamburger{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    flex-flow: column nowrap;
+    z-index: 10;
+    color: black;
+    font-size: 3rem;
+  }
+  .burger{
+    width: 2rem;
+    height: .25rem;
+    border-radius: 10px;
+    background-color: black;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+  }
+
   .navbar {
   display:block;
   background-color: rgb(126, 126, 126);
