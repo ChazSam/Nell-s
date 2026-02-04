@@ -5,20 +5,27 @@ import NellsLogo from "./assets/Nells.svg";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    const mediaQuery = window.matchMedia("(min-width: 768px)")
 
-    const handleTabletChange = (e) => {
-      setIsOpen(e.matches);
-    };
+  const handleScreenChange = (isDesktop: boolean) => {
+    setIsOpen(isDesktop);
+  }
 
-    handleTabletChange(mediaQuery);
+  handleScreenChange(mediaQuery.matches)
 
-    mediaQuery.addEventListener("change", handleTabletChange);
-    return () => mediaQuery.removeEventListener("change", handleTabletChange);
-  }, []);
+  const listener = (e: MediaQueryListEvent) => {
+    handleScreenChange(e.matches);
+  }
+
+  mediaQuery.addEventListener('change', listener)
+  
+  return () => {
+    mediaQuery.removeEventListener('change', listener)
+  }
+}, [])
 
   return (
     <>
