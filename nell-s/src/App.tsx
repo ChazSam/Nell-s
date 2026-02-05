@@ -32,10 +32,13 @@ function App() {
       <header>
         <img src={NellsLogo} alt="Nell's Logo" className="nells-logo"></img>
         <div>
+          <div className="nav-wrapper">
+
           <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
             <div className="burger"></div>
             <div className="burger"></div>
             <div className="burger"></div>
+          </div>
           </div>
 
           {isOpen && <Navbar />}
