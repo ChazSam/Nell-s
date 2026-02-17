@@ -39,12 +39,21 @@
   justify-content: center;
   align-items: center;
 }
+
+.menu-section-desc {
+  
+  max-width: 75em;
+  text-align: center;
+ 
+  
+}
 .menu-items {
   /* width: 20em; */
   flex: 1 1 30em;
   gap: 10em;
   justify-content: space-evenly;
   max-width: 400px;
+  border: 2px dotted;
 }
 
 .review-list {

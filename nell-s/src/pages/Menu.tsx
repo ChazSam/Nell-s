@@ -2,7 +2,7 @@ function Menu() {
   return (
     <div className="menu-page">
       <h1>Dine-In Menu</h1>
-        <h2>Starters & Sharables</h2>
+        <h2 className="menu-section">Starters & Sharables</h2>
       <div className="menu-list">
         <div className="menu-items">
           <h3>Grandpa's Baby Back Ribs</h3>
@@ -145,7 +145,7 @@ function Menu() {
       </div>
 
       <div>
-        <h2>Soups, Salads, & Chili</h2>
+        <h2 className="menu-section">Soups, Salads, & Chili</h2>
         <div className="menu-list">
 
         <div className="menu-items">
@@ -236,8 +236,8 @@ function Menu() {
         </div>
 
       <div>
-        <h2>Entrees</h2>
-        <p>
+        <h2 className="menu-section">Entrees</h2>
+        <p className="menu-section-desc">
           All entrees are served with soup or salad (Bleu Cheese +.75) potato or
           rice, bread and butter. Substitute Fresh Fruit, Sweet Potato Fries, or
           Onion Rings for $1.75. Potato loaded with bacon & cheese $2.25.
@@ -271,7 +271,7 @@ function Menu() {
           </p>
           <h4>$19.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Breaded Pork Tenderloin</h3>
           <p>
             Lightly breaded and cooked to perfection. Perched on Joe's mashed
@@ -362,16 +362,15 @@ function Menu() {
           </p>
           <h4>$23.95</h4>
         </div>
-        <div>
+        <div className="menu-items">
           <h3>Specials</h3>
           <p>Friday Fish Fry & Saturday Prime Rib </p>
         </div>
       </div>
     </div>
       <div>
-        <h2>Great Steaks & Chops</h2>
-
-        <p>
+        <h2 className="menu-section">Great Steaks & Chops</h2>
+        <p className="menu-section-desc">
           All entrees are served with soup or salad (Bleu Cheese +.75) potato or
           rice, bread and butter. Substitute Fresh Fruit, Sweet Potato Fries, or
           Onion Rings for 1.75. Potato loaded with bacon & cheese 2.25.
@@ -436,8 +435,8 @@ function Menu() {
         </div>
        
       <div>
-        <h2>Hand-Held Sandwiches & Wraps</h2>
-        <p>
+        <h2 className="menu-section">Hand-Held Sandwiches & Wraps</h2>
+        <p className="menu-section-desc">
           Served with Crispy Seasoned Fries or House-Made Chips and Soup or
           Coleslaw. Substitute fresh fruit, sweet potato fries, or onion rings
           for $1.75. Substitute a cup of chili or Lobster Bisque for $3.50 or a
