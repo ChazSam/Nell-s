@@ -43,7 +43,10 @@
 .menu-section-desc {
   
   max-width: 75em;
-  text-align: center;
+  justify-content: center;
+
+ 
+  border: 2px dotted;
  
   
 }
@@ -93,7 +96,7 @@ p {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 6rem;
   font-family: "Young Serif", serif;
 }
 h2 {
@@ -106,7 +109,7 @@ h3 {
 }
 
 img {
-  width: 70em;
+  width: 40vw;
   /* max-width: 100%; */
   height: auto;
   display: block;
@@ -130,6 +133,10 @@ img {
   scroll-marker-group: after;
 
   padding-inline: calc(50% -5em);
+}
+
+.carousel img{
+  width: 50vw;
 }
 
 .card::scroll-marker {
